@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* navigation bar css */
+
+.container{
+  width: 100%;
+  height: 14vh;
+  background: #041324ca;
+}
+.btn{
+  width: 80%;
+  height: 14vh;
+  margin-left: 20%;
+  display: flex;
+  gap: 32px;
+}
+.button1{
+  margin-top: 4%;
+  width: 20%;
+  height: 5vh;
+  font-size: large;
+  border-radius: 12px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.853);
+}
+.button2{
+  margin-top: 4%;
+  width: 20%;
+  height: 5vh;
+  font-size: large;
+  border-radius: 12px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.853);
+}
+.button3{
+  margin-top: 4%;
+  width: 20%;
+  height: 5vh;
+  font-size: large;
+  border-radius: 12px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.853);
+}
+.button4{
+  margin-top: 4%;
+  width: 20%;
+  height: 5vh;
+  font-size: large;
+  border-radius: 12px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.853);
+}
+.button5{
+  margin-top: 4%;
+  width: 20%;
+  height: 5vh;
+  font-size: large;
+  border-radius: 12px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.853);
+}
+.button1:hover{   
+  transition: 0.3s;
+  background: transparent;
+  color: white;
+}
+.button2:hover{   
+  transition: 0.3s;
+  background: transparent;
+  color: white;
+}
+.button3:hover{   
+  transition: 0.3s;
+  background: transparent;
+  color: white;
+}
+.button4:hover{   
+  transition: 0.3s;
+  background: transparent;
+  color: white;
+}
+.button5:hover{   
+  transition: 0.3s;
+  background: transparent;
+  color: white;
+}
+
+/* HOme css */
+
+.Content1{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: #041324ca;
+  gap: 232px;
+}
+.info{
+  width: 48%;
+  height: 80vh;
+  color: rgba(255, 255, 255, 0.748);
+  margin-left: 2%;
+  margin-top: 3%;
+}
+.img{
+  width: 30%;
+  height: 65vh;
+  margin-top: 3%;
+  background: linear-gradient(rgba(0, 8, 51, 0.444),rgba(0, 8, 51, 0.381),rgba(0, 8, 51, 0.701)),url(../images/IMG-20250829-WA0019.jpg);
+  background-size: cover;
+  margin-right: 22px;
+  border-radius: 1000px;
+    margin-top: 6%;
+}
+.content2{
+  width: 100%;
+  height: 90vh;
+  background: #041324ca;
+  display: flex;
+  flex-direction: row;
+}
+.div1{
+  width: 32%;
+  border-radius: 24px;
+  height: 85vh;
+  background: #0a0e3369;
+  margin-left: 1%;
+}
+span{
+  font-family: 'caribri';
+}
+.headers{
+  color: rgba(124, 168, 233, 0.788);
+  margin-top: 15%;
+}
+.headerpars{
+  font-size: xx-large;
+  text-align: center;
+  color: #d9e0e7d5;
+}
+.div1-btn{
+  margin-left: 38%;
+  width: 30%;
+  height: 05vh;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: larger;
+  transition: 0.5s;
+}
+.div1-btn:hover{
+  transition: 0.5s;
+  background: transparent;
+  color: white;
+  font-size: x-large;
+  width: 35%;
+  height: 6vh;
+  margin-left: 35%;
+}
+
+/* About css */
+.About-body{
+  width: 100%;
+  height: 100vh;
+  background: #041324ca;
+  color: white;
+}
+
+/* footer css */
+
+.footer{
+  width: 100%;
+  height: 40vh;
+  background: #050b25d7;
+  display: flex;
+  gap: 52px;
+}
+.email{
+  margin-top: 10%;
+  margin-left: 3%;
+  font-size: large;
+  color: cadetblue;
+}
+.github{
+  margin-top: 7%;
+  font-size: large;
+  color: cadetblue;
+}
+.upwork{
+    margin-top: 5%;
+    font-size: large;
+  color: cadetblue;
+}
+.facebook{
+  margin-top: 4%;
+    font-size: large;
+  color: cadetblue;
+}
+.linkedIn{
+  margin-top: 3%;
+    font-size: large;
+  color: cadetblue;
+}
