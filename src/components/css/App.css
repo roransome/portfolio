@@ -15,9 +15,9 @@
   margin-left: 20%;
   display: flex;
   gap: 32px;
+  margin-top: 2%;
 }
 .button1{
-  margin-top: 4%;
   width: 20%;
   height: 5vh;
   font-size: large;
@@ -26,7 +26,6 @@
   background: rgba(255, 255, 255, 0.853);
 }
 .button2{
-  margin-top: 4%;
   width: 20%;
   height: 5vh;
   font-size: large;
@@ -35,7 +34,6 @@
   background: rgba(255, 255, 255, 0.853);
 }
 .button3{
-  margin-top: 4%;
   width: 20%;
   height: 5vh;
   font-size: large;
@@ -44,7 +42,6 @@
   background: rgba(255, 255, 255, 0.853);
 }
 .button4{
-  margin-top: 4%;
   width: 20%;
   height: 5vh;
   font-size: large;
@@ -53,7 +50,6 @@
   background: rgba(255, 255, 255, 0.853);
 }
 .button5{
-  margin-top: 4%;
   width: 20%;
   height: 5vh;
   font-size: large;
@@ -165,6 +161,30 @@ span{
   height: 100vh;
   background: #041324ca;
   color: white;
+}
+
+.introduction{
+  font-size: x-large;
+}
+.title{
+  color: rgba(221, 217, 217, 0.74);
+}
+a{
+  font-size: x-large;
+  color: rgb(4, 180, 250);
+}
+.talk{
+  width: 10%;
+  height: 5vh;
+  font-size: large;
+  border-radius: 12px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.853);
+}
+.talk:hover{
+  transition: 0.3s;
+  color: white;
+  background: transparent;
 }
 
 /* footer css */

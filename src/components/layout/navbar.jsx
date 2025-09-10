@@ -3,6 +3,7 @@ export default function Navbar(){
     return(
         <div>
             <div className="container">
+                an AI generated logo
                 <div className="btn">
                 <button className="button1">Home</button>
                 <button className="button2">About me</button>
